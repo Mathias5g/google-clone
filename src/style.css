@@ -30,6 +30,10 @@ textarea, input {
   border: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* HEADER */
 
 header {
@@ -63,6 +67,16 @@ header .nav ul li button {
   border: none;
   border-radius: 5px;
   font-size: 16px;
+}
+
+.button-apps {
+  padding: 5px;
+}
+
+.button-apps:hover {
+  border: none;
+  border-radius: 50%;
+  background-color: #e7e7e7;
 }
 
 /* MAIN */
